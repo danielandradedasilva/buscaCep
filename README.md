@@ -9,4 +9,4 @@ PARA RODAR O PROJETO EM SEU PC.
 ************************************
 2º - Abra a sua pasta com o projeto clonado pelo vs-code.
 **********************************
-3º - No terminal do vs-code de o comando git
+3º - No terminal do vs-code de o comando $npm install
