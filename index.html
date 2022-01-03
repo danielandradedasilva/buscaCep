@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Cep</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body class="bg-secondary">
+
+    <div class="container bg-dark">
+        <h1 class="text-center mt-3 font-italic text-white">Consultando Cep</h1>
+        <form>
+            <div class="form-group">
+                <label for="cep" class="text-white">Cep</label>
+                <input type="text" class="form-control" maxlength="9" id="cep">
+                <small class="text-white">00000-000</small>
+            </div>
+            <div class="form-group">
+                <label for="logradouro" class="text-white">Logradouro</label>
+                <input type="text" class="form-control" id="logradouro">
+                <small class="text-white">Rua</small>
+            </div>
+            <div class="form-group">
+                <label for="bairro" class="text-white">Bairro</label>
+                <input type="text" class="form-control" id="bairro">
+                <small class="text-white">Bairro</small>
+            </div>
+            <div class="form-group">
+                <label for="localidade" class="text-white">Localidade</label>
+                <input type="text" class="form-control" id="localidade">
+                <small class="text-white">Cidade</small>
+            </div>
+            <div class="form-group">
+                <label for="uf" class="text-white">Uf</label>
+                <input type="text" class="form-control" id="uf">
+                <small class="text-white">Estado</small>
+            </div>
+        </form>
+    </div>
+
+    <script src="src/js/main.js"></script>
+</body>
+
+</html>
